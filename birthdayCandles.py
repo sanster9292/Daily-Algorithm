@@ -39,7 +39,7 @@ print(sort_candles.count(max(sort_candles)))
 
 ''' A BETTER APPROACH
  I saw some people on the discussion board using the function map to do this task. So after, I had
- written my own algorith to make sure that I understood it, I tried my had at map function. It is a lot of funself.
+ written my own algorithm to make sure that I understood it, I tried my had at map function. It is a lot of funself.
 '''
 n = input()
 candles = list(map(int, input().strip().split()))
