@@ -47,3 +47,20 @@ graded_students = curve_grades(student)
 print ('\n')
 for k in graded_students:
     print(k)
+
+    
+    
+'''
+A BETTER SOLUTION TO CURVING GRADES BASED ON THE MODULO FUNCTION
+
+'''
+for j in range(len(student)):
+
+    grade = int(student[j])
+
+    if grade >= 38:
+        if grade % 5 == 3:
+            grade += 2
+        elif grade % 5 == 4:
+            grade += 1
+    print(grade)
