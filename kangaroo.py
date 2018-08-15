@@ -1,3 +1,9 @@
+
+'''
+PROBLEM URL: https://www.hackerrank.com/challenges/kangaroo/problem
+Description: For two kangaroos jumping in a positive direction on the x axis, tell if they will ever cross.
+
+''''
 vals = input().strip().split(' ')
 x1, v1, x2,v2  = [int(i) for i in vals]
 
